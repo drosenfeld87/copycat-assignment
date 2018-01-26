@@ -1,0 +1,126 @@
+
+html {
+  font-size: 1.2em;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+p {
+  display: block;
+}
+
+h2 {
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+}
+
+
+header {
+  background-color: #06D6A0;
+  margin:0;
+  height: 60px;
+}
+
+.logo {
+  font-size: 16px;
+  margin: 20px 10px 0px 20px;
+  color: white;
+  float: left;
+}
+
+ul. navbar {
+  list-style-type: none;
+  float: right;
+  padding: 0;
+  margin: 0;
+}
+
+
+.nav-item {
+  display:inline-block;
+  margin-top: 20px;
+  margin-right: 10px;
+  float: right;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+}
+
+.hero-image,
+.hero-content {
+  float: left;
+  width: 50%;
+}
+.hero {
+  text-align: right;
+  overflow: hidden;
+  background-color: #26547C;
+  color: white;
+}
+
+
+section#cats.call-to-action {
+  padding: 20px;
+  background-color: #FFD166;
+}
+
+.product-item {
+  padding: 3px;
+  width: 33%;
+  display: block;
+  float: left;
+}
+
+ul.product-wrapper img{
+
+}
+
+section#products.products {
+  overflow: hidden;
+  padding: 20px;
+  background-color: lightgrey;
+}
+
+
+section#about.about {
+  padding: 20px;
+  background-color: #26547C;
+}
+
+section#about.about > p {
+  color: white;
+}
+
+ul {
+  list-style-type: none;
+  margin:0;
+  padding: 0;
+}
+
+.team-fun, .team-values, .team-meow {
+    float: left;
+    width: 33.33333%;
+    text-transform: uppercase;
+    text-align: center;
+    color: #EF476F;
+}
+
+footer {
+    background-color: #06D6A0;
+    height: 50px;
+    line-height: 50px;
+    text-align: right;
+    padding: 0 20px;
+}
